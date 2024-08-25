@@ -1,0 +1,455 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 4.76615858078, 1.5543934106827, 3.9691610336304, },
+		bbMin = { -4.7661576271057, -1.5543934106827, -1.4061318635941, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 4.7661581039429, 1.5543934106827, 2.6876463890076, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/Fcs090/Eds090_db.mtl", },
+						mesh = "vehicle/waggon/Fcs090/rumpf_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/Fcs090/Eds090_db.mtl", },
+						mesh = "vehicle/waggon/Fcs090/rad_lod0.msh",
+						name = "rad",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3, 0, 0.46919998526573, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/Fcs090/Eds090_db.mtl", },
+						mesh = "vehicle/waggon/Fcs090/rad_lod0.msh",
+						name = "rad",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3, 0, 0.46919998526573, 1, },
+					},
+                    {
+    					materials = { "vehicle/waggon/zugschluss.mtl", },
+    					mesh = "vehicle/waggon/zugschluss/zugschluss_de_front.msh",
+                        name = "zugschluss_de_front",
+    					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.33, -0.85, 1.29, 1,	},
+    				},
+                    {
+    					materials = { "vehicle/waggon/zugschluss.mtl", },
+    					mesh = "vehicle/waggon/zugschluss/zugschluss_de_front.msh",
+                        name = "zugschluss_de_front",
+    					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.33, 0.85, 1.29, 1,	},
+    				},
+                    {
+    					materials = { "vehicle/waggon/zugschluss.mtl", },
+    					mesh = "vehicle/waggon/zugschluss/zugschluss_de_back.msh",
+                        name = "zugschluss_de_front",
+    					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.33, -0.85, 1.29, 1,	},
+    				},
+                    {
+    					materials = { "vehicle/waggon/zugschluss.mtl", },
+    					mesh = "vehicle/waggon/zugschluss/zugschluss_de_back.msh",
+                        name = "zugschluss_de_front",
+    					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.33, 0.85, 1.29, 1,	},
+    				},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 150,
+		},
+        {
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/Fcs090/Eds090_db.mtl", },
+						mesh = "vehicle/waggon/Fcs090/rumpf_lod1.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/Fcs090/Eds090_db.mtl", },
+						mesh = "vehicle/waggon/Fcs090/rad_lod1.msh",
+						name = "rad",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3, 0, 0.46919998526573, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/Fcs090/Eds090_db.mtl", },
+						mesh = "vehicle/waggon/Fcs090/rad_lod1.msh",
+						name = "rad",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3, 0, 0.46919998526573, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 150,
+			visibleTo = 350,
+		},
+        {
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/Fcs090/Eds090_db.mtl", },
+						mesh = "vehicle/waggon/Fcs090/rumpf_lod2.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/Fcs090/Eds090_db.mtl", },
+						mesh = "vehicle/waggon/Fcs090/rad_lod2.msh",
+						name = "rad",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3, 0, 0.46919998526573, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/Fcs090/Eds090_db.mtl", },
+						mesh = "vehicle/waggon/Fcs090/rad_lod2.msh",
+						name = "rad",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3, 0, 0.46919998526573, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 350,
+			visibleTo = 1300,
+		},
+	},
+	metadata = {
+		availability = {
+			yearFrom = 1964,
+			yearTo = 1980,
+		},
+		maintenance = {
+			runningCosts = -1,
+			lifespan = 29220
+		},
+		cost = {
+			price = -1,
+			priceScale = 1,
+		},
+		description = {
+			name = _("Eds090_db_name"),
+            description = _("Eds090_db_desc"),
+		},
+		emission = {
+			idleEmission = -1,
+			powerEmission = -1,
+			speedEmission = -1,
+		},
+		railVehicle = {
+			configs = {
+				{
+					axles = { "vehicle/waggon/Fcs090/rad_lod0.msh", },
+                    frontForwardParts = { },
+                    backForwardParts = { 4, 5, },
+                    frontBackwardParts = { },
+                    backBackwardParts = { 6, 7, },
+                    innerForwardParts = { },
+                    innerBackwardParts = { }
+				},
+                {
+					axles = { "vehicle/waggon/Fcs090/rad_lod1.msh", },
+				},
+                
+                {
+					axles = { "vehicle/waggon/Fcs090/rad_lod2.msh", },
+				},
+			},
+			engines = { },
+			soundSet = {
+				name = "waggon_freight_old",
+			},
+			topSpeed = 33.3333333,
+			weight = 12.2,
+		},
+		cargoSlotProvider = {
+			slots = {
+				{
+					models = { "vehicle/waggon/Fcs090/beladung/load_coal_1.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fcs090/beladung/load_coal_2.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fcs090/beladung/load_coal_3.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fcs090/beladung/load_coal_4.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fcs090/beladung/load_iron_ore_1.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fcs090/beladung/load_iron_ore_2.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fcs090/beladung/load_iron_ore_3.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fcs090/beladung/load_iron_ore_4.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fcs090/beladung/load_stone_1.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fcs090/beladung/load_stone_2.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fcs090/beladung/load_stone_3.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fcs090/beladung/load_stone_4.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fcs090/beladung/load_oil_sand_1.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fcs090/beladung/load_oil_sand_2.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fcs090/beladung/load_oil_sand_3.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fcs090/beladung/load_oil_sand_4.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fcs090/beladung/load_silver_ore_1.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fcs090/beladung/load_silver_ore_2.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fcs090/beladung/load_silver_ore_3.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fcs090/beladung/load_silver_ore_4.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				}, 
+				{
+					models = { "vehicle/waggon/Fcs090/beladung/load_slag_1.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fcs090/beladung/load_slag_2.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fcs090/beladung/load_slag_3.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fcs090/beladung/load_slag_4.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+			},
+		},	
+		transportVehicle = {
+			carrier = "RAIL",
+			compartments = {
+				{
+					{
+						{
+							capacity = 40,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ },
+											{ 0 },
+											{ 1 },	
+											{ 2 },
+											{ 3 },											
+										},
+									},									
+								},
+							},
+							type = "COAL",
+						},
+					},
+					{
+						{
+							capacity = 40,
+							
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ },
+											{ 4 },
+											{ 5 },	
+											{ 6 },
+											{ 7 },
+											
+										},
+									},									
+								},
+							},
+							type = "IRON_ORE",
+						},
+					},	
+                    {
+						{
+							capacity = 40,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ },
+											{ 8 },
+											{ 9 },	
+											{ 10 },
+											{ 11 },											
+										},
+									},									
+								},
+							},
+							type = "STONE",
+						},
+					},	
+                    {
+						{
+							capacity = 40,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ },
+											{ 12 },
+											{ 13 },	
+											{ 14 },
+											{ 15 },											
+										},
+									},									
+								},
+							},
+							type = "OIL_SAND",
+						},
+					},		
+                    {
+						{
+							capacity = 40,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ },
+											{ 16 },
+											{ 17 },	
+											{ 18 },
+											{ 19 },											
+										},
+									},									
+								},
+							},
+							type = "SILVER_ORE",
+						},
+					},			
+                    {
+						{
+							capacity = 40,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ },
+											{ 20 },
+											{ 21 },	
+											{ 22 },
+											{ 23 },											
+										},
+									},									
+								},
+							},
+							type = "SLAG",
+						},
+					},
+				},
+			},
+			loadSpeed = 2,
+			maxVolume = 40,
+			maxWeight = 28,
+			multipleUnitOnly = false,
+			groupFileName = "vehicle/waggon/Fcs090/menu_Fcs090.mdl",
+			reversible = false,
+		},
+	},
+	version = 1,
+}
+end
