@@ -6,7 +6,7 @@
         "fake": "Fake - ",
 		
         "fake_fcs090" : "Enable Fake Versions?",
-        "tooltip_fake" : "Should the fake versions be available in the game?",
+        "tooltip_fake_fcs090" : "Should the fake versions be available in the game?",
 		
 		"otmm70_db" : "Otmm 70 reddish brown DB",
 		"otmm70_db_desc" : "The first wagons were built from 1961 onwards, with series production starting in 1962. The freight wagons are suitable for transporting loads such as sand, gravel, ore or coal.",
@@ -35,7 +35,7 @@
         "fake": "Fake - ",
 		
         "fake_fcs090" : "Fake-Versionen aktivieren?",
-        "tooltip_fake" : "Sollen die Fake-Versionen verfügbar sein im Spiel?",
+        "tooltip_fake_fcs090" : "Sollen die Fake-Versionen verfügbar sein im Spiel?",
 		
 		"otmm70_db" : "Otmm 70 rotbraun DB",
 		"otmm70_db_desc" : "Die ersten Wagen wurden ab 1961 gebaut, die Serienfertigung erfolgte ab 1962. Die Güterwagen sind geeignet zur Beförderung vom Ladegut wie Sand, Kies, Erz oder Kohle.",

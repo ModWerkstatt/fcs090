@@ -39,7 +39,7 @@ return {
 			price = -1,
 		},
 		description = { 
-			name = _("menu_fans128"),
+			name = _("menu_fcs090"),
 		},
 		emissions = { 
 			noise = { 
