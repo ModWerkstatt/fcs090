@@ -1,0 +1,32 @@
+{
+    "dependencies": [
+        {
+            "loadBefore": true,
+            "mod": {
+                "modId": "mw_basis",
+                "revisionMax": -1,
+                "revisionMin": 1
+            },
+            "modInfo": {
+                "displayName": "ModWerkstatt Base Mod",
+                "url": "https://modwerkstatt.com/downloads/tpf3/basismod"
+            },
+            "optional": false
+        }
+    ],
+    "incompatibilities": null,
+    "modId": "mw_fcs090",
+    "params": null,
+    "postRunScript": {
+        "fileName": ""
+    },
+    "preRunScript": {
+        "fileName": ""
+    },
+    "revision": 1,
+    "runScript": {
+        "fileName": ""
+    },
+    "severityAdd": "None",
+    "severityRemove": "Warning"
+}

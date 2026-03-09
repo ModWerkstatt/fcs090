@@ -1,0 +1,59 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 3.0499999523162841796875, 0.85000002384185791015625, 2.5, },
+			bbMin = { -3.0499999523162841796875, -0.85000002384185791015625, 0, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 3.0499999523162841796875, 0.85000002384185791015625, 1.25, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.25, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/cargos/shared/mat/cargo_stone.mtl", },
+							mesh = "msh/beladung_2_lod0.msh",
+							name = "ladung",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 500,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/cargos/shared/mat/cargo_stone.mtl", },
+							mesh = "msh/beladung_2_lod1.msh",
+							name = "ladung",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 500,
+				visibleTo = 1500,
+			},
+		},
+		metadata = { 
+			availability = { 
+				yearFrom = 1961,
+				yearTo = 0,
+			},
+			cost = { 
+				price = 500,
+			},
+		},
+		version = 2,
+	}
+end

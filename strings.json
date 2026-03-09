@@ -1,0 +1,61 @@
+{
+	"en": {
+		
+        "menu_fcs090" : "Otmm 70 | Eds 090 | Fcs 090 | Fcs 092",
+		
+        "fake": "Fake - ",
+		
+        "fake_fcs090" : "Enable Fake Versions?",
+        "tooltip_fake" : "Should the fake versions be available in the game?",
+		
+		"otmm70_db" : "Otmm 70 reddish brown DB",
+		"otmm70_db_desc" : "The first wagons were built from 1961 onwards, with series production starting in 1962. The freight wagons are suitable for transporting loads such as sand, gravel, ore or coal.",
+        "eds090_db" : "Eds 090 reddish brown DB",
+        "eds090_basf" : "Eds 090 reddish brown BASF",
+        "eds090_quarzwerke" : "Eds 090 reddish brown Quarzwerke",
+        "eds090_rag" : "Eds 090 reddish brown Ruhrkohle AG",
+		"eds090_db_desc" : "According to UIC guidelines, the newly built wagons were designated Eds 090 from 1964. The freight wagons are suitable for transporting loads such as sand, gravel, ore or coal.",
+		"fcs090_db" : "Fcs 090 reddish brown DB",
+        "fcs090_basf" : "Fcs 090 reddish brown BASF ",
+        "fcs090_quarzwerke" : "Fcs 090 reddish brown Quarzwerke",
+        "fcs090_rag" : "Fcs 090 reddish brown Ruhrkohle AG",
+		"fcs090_db_desc" : "After the brakes were rebuilt, the wagons were listed as Fcs 090. The freight wagons are suitable for transporting loads such as sand, gravel, ore or coal.",
+		"fcs090_dbag" : "Fcs 090 reddish brown DB AG",
+		"fcs090_dbag_desc" : "Some of the last Fcs 090 wagons still came to DB AG and were in service until the deadline expired.",
+		"fcs092_db" : "Fcs 092 reddish brown DB",
+		"fcs092_db_desc" : "From 1991 onwards, the Fcs 090 wagons were refurbished at the Zwickau depot in order to extend their useful life. These wagons were re-designated as Fcs 092.",
+		"fcs092_dbag" : "Fcs 092 traffic red DB AG",
+		"fcs092_dbag_desc" : "The refurbished Fcs 092 wagons were painted in DB AG's traffic red, the valid colour scheme since 1996.",
+        "fcs092_dbcargo" : "Fcs 092 traffic red DB Cargo"
+	},
+	"de": {
+		
+        "menu_fcs090" : "Otmm 70 | Eds 090 | Fcs 090 | Fcs 092",
+		
+        "fake": "Fake - ",
+		
+        "fake_fcs090" : "Fake-Versionen aktivieren?",
+        "tooltip_fake" : "Sollen die Fake-Versionen verfügbar sein im Spiel?",
+		
+		"otmm70_db" : "Otmm 70 rotbraun DB",
+		"otmm70_db_desc" : "Die ersten Wagen wurden ab 1961 gebaut, die Serienfertigung erfolgte ab 1962. Die Güterwagen sind geeignet zur Beförderung vom Ladegut wie Sand, Kies, Erz oder Kohle.",
+        "eds090_db" : "Eds 090 rotbraun DB",
+        "eds090_basf" : "Eds 090 rotbraun BASF",
+        "eds090_quarzwerke" : "Eds 090 rotbraun Quarzwerke",
+        "eds090_rag" : "Eds 090 rotbraun Ruhrkohle AG",
+		"eds090_db_desc" : "Nach UIC-Richtlinien wurden die neugebauten Wagen ab 1964 unter dem Kürzel Eds 090 geführt. Die Güterwagen sind geeignet zur Beförderung vom Ladegut wie Sand, Kies, Erz oder Kohle.",
+		"fcs090_db" : "Fcs 090 rotbraun DB",
+        "fcs090_basf" : "Fcs 090 rotbraun BASF",
+        "fcs090_quarzwerke" : "Fcs 090 rotbraun Quarzwerke",
+        "fcs090_rag" : "Fcs 090 rotbraun Ruhrkohle AG",
+		"fcs090_db_desc" : "Nach Umbau der Bremsen wurden die Wagen als Fcs 090 geführt. Die Güterwagen sind geeignet zur Beförderung vom Ladegut wie Sand, Kies, Erz oder Kohle.",
+		"fcs090_dbag" : "Fcs 090 rotbraun DB AG",
+		"fcs090_dbag_desc" : "Einige letzte Wagen der Bauart Fcs 090 kamen noch zur DB AG und standen bis zum Fristablauf im Einsatz.",
+		"fcs092_db" : "Fcs 092 rotbraun DB",
+		"fcs092_db_desc" : "Ab 1991 wurden im Raw Zwickau die Fcs 090 Wagen hergerichtet, um ihre Nutzungszeit zu verlängern. Diese Wagen wurden in Fcs 092 umgezeichnet.",
+		"fcs092_dbag" : "Fcs 092 verkehrsrot DB AG",
+		"fcs092_dbag_desc" : "Die hergerichteten Wagen der Gattung Fcs 092 wurde im verkehrsrot der DB AG lackiert, dem gültigen Farbschema seit 1996.",
+        "fcs092_dbcargo" : "Fcs 092 verkehrsrot DB Cargo"
+
+	}
+}
