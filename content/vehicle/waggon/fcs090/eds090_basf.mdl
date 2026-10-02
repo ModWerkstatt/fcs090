@@ -214,7 +214,7 @@ return {
 			landVehicle = { 
 				brakeDeceleration = 0.5,
 				engines = { },
-				friction = 0.0199999995529651641845703125,
+				friction = 0.02,
 				topSpeed = 33.333332061767578125,
 				weightEmpty = 11770,
 				weightMaxPayload = 31500,
